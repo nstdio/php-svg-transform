@@ -80,6 +80,13 @@ class SVGMatrixImpl implements SVGMatrix
         return $this->createWithMul(self::vector($matrix));
     }
 
+    /**
+     * Creates new SVGMatrixImpl from provided vector.
+     *
+     * @param array $vec
+     *
+     * @return static
+     */
     private function createWithMul(array $vec)
     {
         $result = new static();
