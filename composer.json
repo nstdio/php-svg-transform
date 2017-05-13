@@ -1,0 +1,21 @@
+{
+  "name": "nstdio/svg-transform",
+  "description": "The comprehensive SVG Transform API.",
+  "type": "library",
+  "license": "Apache 2.0",
+  "authors": [
+    {
+      "name": "nstdio",
+      "email": "nstdio@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "mcordingley/linearalgebra": "1.3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "nstdio\\": "src/"
+    }
+  }
+}
